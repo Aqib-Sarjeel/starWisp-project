@@ -170,13 +170,15 @@ function MyPage() {
               </div>
             </div>
 
-            <div className="col-3 text-center mt-2">
+            <div className="col-3 text-center mt-3">
               <br />
               <br />
+             
               <div
                 style={{
                   backgroundColor: "#ff6c40",
                   height: "55vh",
+                 
                 }}
               >
                 <h4
@@ -184,6 +186,7 @@ function MyPage() {
                     color: "#fff",
                   }}
                 >
+
                   17 Sep
                 </h4>
                 <div
@@ -306,7 +309,7 @@ function MyPage() {
                           <h3>Inbox</h3>
                         </div>
 
-                        <div className="col-4 text-center">87</div>
+                        <div className="col-4 text-center">23</div>
                       </div>
                     </div>
                   </div>
@@ -319,10 +322,10 @@ function MyPage() {
                       style={{ background: "#fff", borderRadius: "10px" }}
                     >
                       <div className="row">
-                        <div className="col-12 text-center">this month</div>
+                        <div className="col-12 text-center">This Month</div>
 
                         <div className="col-5">
-                          <h3> +74%</h3>
+                          <h3> +7.8%</h3>
                         </div>
 
                         <div className="col-6">
@@ -357,10 +360,10 @@ function MyPage() {
                       style={{ background: "#fff", borderRadius: "10px" }}
                     >
                       <div className="row">
-                        <div className="col-12 text-center">this month</div>
+                        <div className="col-12 text-center">Last Month</div>
 
                         <div className="col-5">
-                          <h3> +74%</h3>
+                          <h3> +67.4%</h3>
                         </div>
 
                         <div className="col-6">
