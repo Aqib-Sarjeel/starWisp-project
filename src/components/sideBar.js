@@ -28,19 +28,19 @@ function SideBar() {
       <div className="row" style={{ marginRight: "0px" }}>
         <div className="col-3">
           <ul style={{ marginLeft: "-40px" }}>
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: "none" }}>
               <li>
-                <MdDashboard style={{ textDecoration: "none" }} />
+                <MdDashboard />
                 Dashboard
               </li>
             </Link>
-            <Link to="/sideBar">
+            <Link to="/sideBar" style={{ textDecoration: "none" }}>
               <li>
                 <IoMdSchool />
                 Lorem
               </li>
             </Link>
-            <Link>
+            <Link to="#" style={{ textDecoration: "none" }}>
               <li>
                 <IoMdSettings />
                 Ipsum

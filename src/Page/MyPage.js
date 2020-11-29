@@ -96,19 +96,19 @@ function MyPage() {
               marginLeft: "-40px",
             }}
           >
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: "none" }}>
               <li>
                 <MdDashboard />
                 Dashboard
               </li>
             </Link>
-            <Link to="/sideBar">
+            <Link to="/sideBar" style={{ textDecoration: "none" }}>
               <li>
                 <IoMdSchool />
                 Lorem
               </li>
             </Link>
-            <Link>
+            <Link to="#" style={{ textDecoration: "none" }}>
               <li>
                 <IoMdSettings />
                 Ipsum
