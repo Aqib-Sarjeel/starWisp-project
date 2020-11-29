@@ -89,7 +89,7 @@ function MyPage() {
         className="row"
         style={{ background: "#E5E5E5", marginRight: "0px" }}
       >
-        <div className="col-3">
+        <div className="col-2">
           <ul
             style={{
               textDecoration: "none",
@@ -116,9 +116,9 @@ function MyPage() {
             </Link>
           </ul>
         </div>
-        <div className="col-6">
+        <div className="col-6 ml-5">
           <div className="row">
-            <div className="col-9">
+            <div className="col-9 pt-2">
               <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <input
@@ -227,7 +227,7 @@ function MyPage() {
               <br />
               <div className="row">
                 <div
-                  className="col-4 p-3 mr-1"
+                  className="col-4 p-3 mr-3"
                   style={{ background: "#fff", borderRadius: "20px" }}
                 >
                   <h5>NotePad</h5>
@@ -263,7 +263,7 @@ function MyPage() {
                   </p>
                 </div>
 
-                <div className="col-4">
+                <div className="col-4 mr-3">
                   <div className="row">
                     <div
                       className="col-12 p-0"
@@ -393,7 +393,7 @@ function MyPage() {
           </div>
         </div>
 
-        <div className="col-3">
+        <div className="col-3 ml-3">
           <div className="row">
             <div className="col-md-6">
               {" "}
@@ -455,6 +455,12 @@ function MyPage() {
               <p>3 minutes ago</p>
             </div>
           </div>
+        </div>
+
+        <div className="col-12">
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ function SideBar() {
   return (
     <>
       <div className="row" style={{ marginRight: "0px" }}>
-        <div className="col-3">
+        <div className="col-2">
           <ul style={{ marginLeft: "-40px" }}>
             <Link to="/" style={{ textDecoration: "none" }}>
               <li>
@@ -48,7 +48,7 @@ function SideBar() {
             </Link>
           </ul>
         </div>
-        <div className="col-9">
+        <div className="col-9 ml-5">
           <div
             style={{
               marginRight: "50px",
@@ -138,6 +138,10 @@ function SideBar() {
               </div>
             </div>
           ))}
+
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </>
