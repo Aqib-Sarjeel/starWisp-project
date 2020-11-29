@@ -170,7 +170,7 @@ function MyPage() {
               </div>
             </div>
 
-            <div className="col-3 text-center">
+            <div className="col-3 text-center mt-2">
               <br />
               <br />
               <div
