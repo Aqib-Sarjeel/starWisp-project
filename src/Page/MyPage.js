@@ -93,6 +93,7 @@ function MyPage() {
           <ul
             style={{
               textDecoration: "none",
+              marginLeft: "-40px",
             }}
           >
             <Link to="/">

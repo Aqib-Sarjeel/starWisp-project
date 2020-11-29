@@ -27,10 +27,10 @@ function SideBar() {
     <>
       <div className="row" style={{ marginRight: "0px" }}>
         <div className="col-3">
-          <ul>
+          <ul style={{ marginLeft: "-40px" }}>
             <Link to="/">
               <li>
-                <MdDashboard />
+                <MdDashboard style={{ textDecoration: "none" }} />
                 Dashboard
               </li>
             </Link>
