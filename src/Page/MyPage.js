@@ -176,7 +176,7 @@ function MyPage() {
               <div
                 style={{
                   backgroundColor: "#ff6c40",
-                  height: "45vh",
+                  height: "55vh",
                 }}
               >
                 <h4
