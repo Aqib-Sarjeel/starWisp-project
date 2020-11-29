@@ -287,7 +287,7 @@ function MyPage() {
                       <AreaChart
                         width={220}
                         height={140}
-                        data={data}
+                        data={data2}
                         margin={{
                           top: 10,
                           right: 30,

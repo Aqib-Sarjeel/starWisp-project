@@ -23,9 +23,6 @@ function SideBar() {
     ]);
   };
 
-  const inputTextHandler = (e) => {
-    console.log(e.target.value);
-  };
   return (
     <>
       <div className="row" style={{ marginRight: "0px" }}>
@@ -63,7 +60,6 @@ function SideBar() {
               <form>
                 <input
                   onChange={(e) => setInputText(e.target.value)}
-               
                   style={{
                     backgroundColor: "#fafafa",
                     height: "98px",
