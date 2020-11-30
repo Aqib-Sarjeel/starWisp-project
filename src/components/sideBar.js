@@ -9,9 +9,22 @@ function SideBar() {
   const [inputText, setInputText] = useState("");
 
   const [post, setPost] = useState([
-    { username: "username", postData: "testing post data1", time: "12:20" },
-    { username: "username", postData: "testing post data2", time: "13:40" },
-    { username: "username", postData: "testing post data3", time: "4:20" },
+    {
+      username: "username",
+      postData:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      time: "12:20",
+    },
+    {
+      username: "username",
+      postData: "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      time: "13:40",
+    },
+    {
+      username: "username",
+      postData: "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      time: "4:20",
+    },
   ]);
 
   const setData = () => {
@@ -56,7 +69,7 @@ function SideBar() {
             }}
             className="card"
           >
-            <div className="card-body">
+            <div style={{ borderRadius: "20px" }} className="card-body">
               <form>
                 <input
                   onChange={(e) => setInputText(e.target.value)}
@@ -148,3 +161,8 @@ function SideBar() {
   );
 }
 export default SideBar;
+<h1>
+  . Aspernatur, molestiae! Necessitatibus consequatur sit architecto culpa
+  ratione? Vitae natus ipsam quam exercitationem vero cumque. Aliquam cumque
+  recusandae in quod possimus architecto.
+</h1>;
